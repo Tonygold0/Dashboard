@@ -70,3 +70,45 @@ nav i{
 }
 
 /* Main Section */
+
+.main{
+  width: 100%;
+  /* background-color: red; */
+}
+.main-top{
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(43, 43, 43);
+}
+.main-body{
+  padding: 10px 10px 10px 20px;
+}
+h1{
+  margin: 20px;
+}
+.search_bar{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.search_bar input{
+  width:50% ;
+  padding: 10px;
+  border: 1px solid rgb(190, 190, 190);
+}
+.search_bar input:focus{
+  border: 1px sold blueviolet;
+}
+.search_bar select{
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px;
+}
+.search_bar .filter{
+  width: 300px;
+}
